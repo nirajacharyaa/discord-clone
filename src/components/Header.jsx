@@ -95,7 +95,9 @@ const Header = () => {
       </nav>
       <div className="flex">
         <button
-          onClick={() => (user ? navigate("/channels") : signIn())}
+          onClick={() =>
+            user ? navigate("/discord-clone/channels") : signIn()
+          }
           className="text-black bg-white px-4 py-2 rounded-3xl hover:shadow-btn-shadow hover:text-dis-blue"
         >
           {user ? "Open Discord" : "Login"}

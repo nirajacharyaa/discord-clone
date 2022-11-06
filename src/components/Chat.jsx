@@ -32,7 +32,6 @@ const Chat = () => {
   const q = query(fireMessageRef, orderBy("timeStamp"));
   const chatRef = useRef(null);
   const [messages] = useCollectionData(q);
-  console.log(messages);
 
   const scrollToBottom = () => {
     chatRef.current.scrollIntoView({
