@@ -12,7 +12,7 @@ const Header = () => {
   const signIn = async () => {
     try {
       await signInWithPopup(auth, googleProvider);
-      navigate("/channels");
+      navigate("/discord-clone/channels");
     } catch (err) {
       console.log(err.message);
     }

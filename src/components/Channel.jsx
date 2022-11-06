@@ -9,7 +9,7 @@ const Channel = ({ channelName, id }) => {
 
   const setChannel = () => {
     dispatch(setChannelInfo({ channelName: channelName, channelId: id }));
-    navigate(`/channels/${id}`);
+    navigate(`/discord-clone/channels/${id}`);
   };
 
   return (
