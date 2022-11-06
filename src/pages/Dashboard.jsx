@@ -43,7 +43,7 @@ const Dashboard = () => {
 
   return (
     <div>
-      {!user && <Navigate to="/" />}
+      {!user && <Navigate to="/discord-clone/" />}
       <div className="flex">
         <div className="w-16 bg-[#202225] h-screen flex flex-col items-center space-y-2 p-2">
           <div className="server-default bg-dis-blue text-white flex items-center justify-center p-2 cursor-pointer rounded-2xl">

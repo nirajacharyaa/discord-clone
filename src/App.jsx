@@ -10,9 +10,9 @@ const App = () => {
       <div>
         <Router>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/channels" element={<Dashboard />} />
-            <Route path="/channels/:id" element={<Dashboard />} />
+            <Route path="/discord-clone/" element={<Home />} />
+            <Route path="/discord-clone/channels" element={<Dashboard />} />
+            <Route path="/discord-clone/channels/:id" element={<Dashboard />} />
           </Routes>
         </Router>
       </div>
